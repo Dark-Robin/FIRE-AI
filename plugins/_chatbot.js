@@ -45,7 +45,7 @@ export async function before(message, { conn }) {
           // The initial system prompt for GPT-3
           const systemPrompt = {
             role: "system",
-            content: `This is FIREMD CHATBOT with a lot of features. Respond with fire emojis in every reply...`  // shortened for brevity
+            content: `This is ROBIN_MD CHATBOT with a lot of features. Respond with fire emojis in every reply...`  // shortened for brevity
           };
 
           const userPrompt = {
