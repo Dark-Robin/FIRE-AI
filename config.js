@@ -79,15 +79,15 @@ global.dygp = 'https://chat.whatsapp.com/C3B8E4LWZeWL8dwgjARKpS'
 global.fgsc = 'https://github.com/'
 global.fgyt = 'https://youtube.com/@robin_gaming_pubg?si=QoRz9epGIHe_b4QK'
 global.fgpyp = 'https://youtube.com/@robin_gaming_pubg?si=QoRz9epGIHe_b4QK'
-global.fglog = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
+global.fglog = fs.readFileSync('./Assets/fire.jpg')
 global.thumb = fs.readFileSync('./Assets/fire.jpg')
 
 global.wait = '*🕑 _processing..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '🕑'
-global.dmoji = '🤭'
+global.dmoji = '🤩'
 global.done = '✅'
 global.error = '❌'
-global.xmoji = '🔥'
+global.xmoji = '👻'
 
 global.multiplier = 69
 global.maxwarn = '3'
