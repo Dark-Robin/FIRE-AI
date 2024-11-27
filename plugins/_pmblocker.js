@@ -22,7 +22,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
     if (bot.pmblocker && !isOwner && !isROwner) {
       // Block the sender unconditionally for any private message sent
       await m.reply(
-        `*Hello @${m.sender.split`@`[0]}, messaging the bot privately is currently disabled. You have been blocked from using the bot.*`,
+        `*Hello @${m.sender.split`@`[0]}, messaging the bot privately is currently disabled. You have been blocked from using the bot.*\n\n*❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️*`,
         false,
         { mentions: [m.sender] }
       )
