@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     who = m.chat
   }
 
-  if (!who) throw `✳️ Tag or mention someone\n\n📌 Example : ${usedPrefix + command} @tag`
+  if (!who) throw `✳️ Tag or mention someone\n@ ගහලා tag කරපන් කවුරුහරි\n\n📌 Example : ${usedPrefix + command} @tag\n\n❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️`
 
   let name = conn.getName(who)
   let name2 = conn.getName(m.sender)
@@ -48,7 +48,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   m.react('☺️')
 }
 
-handler.tags = ['reaction']
+handler.tags = ['Robin React']
 handler.help = [
   'bully @tag',
   'cuddle @tag',
