@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
+const ownervb = process.env.OWNERS || "94704101989; Sihilel"
 
 
 const ownerlist = ownervb.split(';');
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['2349013432338', '2349013432338']
-global.prems = ['2349013432338', '2349013432338', '2349013432338']
-global.allowed = ['2349013432338', '2349013432338', '2349013432338']
+global.mods = ['94704101989', '94717123938', '94773007157']
+global.prems = ['94704101989', '94717123938', '94773007157']
+global.allowed = ['94704101989', '94717123938', '94773007157']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -71,14 +71,14 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'false'
-global.packname = 'FIRE MD'
-global.author = 'OPAKSFIRE'
+global.packname = 'ROBIN MD'
+global.author = 'SIHILEL'
 global.menuvid = 'https://files.catbox.moe/r9oil6.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/\n'
-global.dygp = 'https://whatsapp.com/channel/0029VajYjMJJf05aRQXKx82W'
+global.dygp = 'https://chat.whatsapp.com/C3B8E4LWZeWL8dwgjARKpS'
 global.fgsc = 'https://github.com/'
-global.fgyt = 'https://youtube.com/'
-global.fgpyp = 'https://youtube.com/'
+global.fgyt = 'https://youtube.com/@robin_gaming_pubg?si=QoRz9epGIHe_b4QK'
+global.fgpyp = 'https://youtube.com/@robin_gaming_pubg?si=QoRz9epGIHe_b4QK'
 global.fglog = 'https://api.shannmoderz.xyz/server/file/XyjKP6IA0VnyFZF.jpg'
 global.thumb = fs.readFileSync('./Assets/fire.jpg')
 
